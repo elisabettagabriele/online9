@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px"
+	 height="34px" viewBox="0 0 34 34" enable-background="new 0 0 34 34" xml:space="preserve">
+<g id="Layer_1">
+	<circle fill="#105DC1" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="16.75" cy="17" r="15"/>
+</g>
+<g id="play_1_" display="none">
+	<g id="play" display="inline">
+		<polygon fill="#FFFFFF" points="12,8.667 25,17.333 12,26 		"/>
+	</g>
+</g>
+<g id="plus_1_" display="none">
+	<g id="plus" display="inline">
+		<polygon fill="#FFFFFF" points="25,15 19,15 19,9 15,9 15,15 9,15 9,19 15,19 15,25 19,25 19,19 25,19 		"/>
+	</g>
+</g>
+<g id="document" display="none">
+	<g id="document_x5F_alt_x5F_stroke" display="inline">
+		<path fill="#FFFFFF" d="M18,9h-7v16h12V13.999L18,9z M13,23V11h4v4h4v8H13z"/>
+	</g>
+	<g id="Layer_5" display="inline">
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="14" y1="17.5" x2="20" y2="17.5"/>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="14" y1="19.5" x2="20" y2="19.5"/>
+		<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="14" y1="21.5" x2="20" y2="21.5"/>
+	</g>
+</g>
+<g id="info">
+	<g id="info_1_">
+		<g>
+			<path fill="#FFFFFF" d="M14,17c0.553,0,1,0.447,1,1v4c0,0.553-0.447,1-1,1h-1v2h8v-2h-0.996c-0.551,0-1-0.447-1-1L19,15h-6v2H14z
+				"/>
+			<circle fill="#FFFFFF" cx="17" cy="11" r="2"/>
+		</g>
+	</g>
+</g>
+</svg>

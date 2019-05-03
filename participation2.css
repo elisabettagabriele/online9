@@ -1,0 +1,114 @@
+
+body{
+    background-image: url(imagesf/class4.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family: 'EB Garamond', serif;
+    
+   
+}
+
+#titles{
+    border: 5px solid coral;
+    opacity: .85;
+    height: 90px;
+    background-color: whitesmoke;
+}
+
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 170px;
+    height: 85px;
+    opacity: .9;
+    border: 5px solid coral;
+    
+}
+
+h3{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 30pt;
+      color: coral;
+}
+
+
+.container{
+    position: relative;
+    top: 70px;
+    position: relative;
+    opacity: .65;
+    border: 5px solid coral;
+    width: 650px;
+    height: 350px;
+    margin: auto;
+    background-color: whitesmoke;
+    
+    
+    
+}
+
+/*THIS STUFF IS RELATED TO THE QUEUE'D IMAGES DO NOT CHANGE*/
+.image {
+    position: relative;
+    top: 4px;
+    left: 28px;
+    height: 80%;
+    
+}
+
+
+.personInQueue {
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #2196F3;
+    
+}
+
+.personInQueue .text {
+    margin: auto;
+    text-align: center;
+    height: 20%
+    border: solid;
+}
+
+.silent {
+    border-color: limegreen;
+}
+
+#question{
+    opacity: .97;
+    position: relative;
+    top: 120px;
+    width: 500px;
+    height: 280px;
+    border: 5px solid coral;
+    margin: auto;
+    background-color: whitesmoke;
+    
+}
+.button {
+    background-color: coral; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 100px;
+   
+
+  }
+  form{
+    margin-left: 555px;
+  }
