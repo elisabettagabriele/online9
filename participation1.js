@@ -52,7 +52,7 @@
     
          
     function refreshMessages(){
-        let url = "QueueServer.php";
+        let url = "https://partyprogramming.herokuapp.com/QueueServer.php";
         fetch(url, {method: "GET", mode: 'no-cors'})   
         .then(checkStatus)
         .then(function(responseText){
@@ -67,7 +67,7 @@
     }
     
     function updateServer(){
-        let url = "QueueServer.php";
+        let url = "https://partyprogramming.herokuapp.com/QueueServer.php";
         let personQueue = $("queue").innerHTML;
         let myJSON = JSON.stringify({personQueue});
         let data =  new FormData();
@@ -78,7 +78,7 @@
   	}
         
     function appendQuestion() {
-        let url = "questionsServer.php";
+        let url = "https://partyprogramming.herokuapp.com/questionsServer.php";
         let question = $("comment").value;
         let data =  new FormData();
         data.append("data",question);
