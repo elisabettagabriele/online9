@@ -31,7 +31,7 @@
     }
     
     function refreshQueue() {
-        let url = "QueueServer.php";
+        let url = "https://partyprogramming.herokuapp.com/QueueServer.php";
         fetch(url, {method: "GET", mode: 'no-cors'})   
         
         .then(checkStatus)
@@ -45,7 +45,7 @@
     }
     
     function displayQuestion() {
-        let url = "questionsServer.php";
+        let url = "https://partyprogramming.herokuapp.com/questionsServer.php";
         fetch(url, {method: "GET", mode: 'no-cors'})   
         .then(checkStatus)
         .then(function(responseText){
@@ -59,7 +59,7 @@
     
     function updateServer(){
         console.log("updated"); 
-        let url = "QueueServer.php";
+        let url = "https://partyprogramming.herokuapp.com/QueueServer.php";
         let personQueue = $("queue").innerHTML;
         let myJSON = JSON.stringify({personQueue});
         let data =  new FormData();
@@ -71,7 +71,7 @@
     
     function updateServerQuestion(){
         console.log("updated Question"); 
-        let url = "questionsServer.php";
+        let url = "https://partyprogramming.herokuapp.com/questionsServer.php";
         var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new activeXObject("Microsoft.XMLHTTP");
         xhr.open( 'GET', url + "?mode=destroy");
         xhr.send();
