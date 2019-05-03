@@ -6,6 +6,9 @@ body{
     
    
 }
+#title{
+    top: 60px;
+}
 
 #titles{
     border: 5px solid coral;
@@ -40,7 +43,19 @@ h3, h2{
     opacity: .65;
     border: 5px solid coral;
     width: 1200px;
-    height: 70px;
+    height: 100px;
+    margin: auto;
+    background-color: whitesmoke;
+    
+}
+.container1{
+    position: relative;
+    
+    position: relative;
+    opacity: .65;
+    border: 5px solid coral;
+    width: 1200px;
+    height: 100px;
     margin: auto;
     background-color: whitesmoke;
     
@@ -70,7 +85,11 @@ h3, h2{
     
 }
 
-
+.divy{
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
 
 .pick1{
     font-size: 12pt;
@@ -79,7 +98,7 @@ h3, h2{
 
 .leaving{
   
-    position: relative;
+    position: absolute;
     top:50px;
     position: relative;
     opacity: .65;
@@ -93,10 +112,14 @@ h3, h2{
 
 #title{
     font-size: 15pt;
+    padding: -20px;
+    background-color: white;
 }
 
-
-
+.more{
+    width: 200px;
+    height: 100px;
+}
 
 .xnav li {
     padding: 20px;
@@ -124,8 +147,10 @@ h1{
 
 
 a{
-    color: #000000;
+
     text-decoration: none;
+    background-color: coral;
+    color: black;
 }
 
 
@@ -148,6 +173,7 @@ div{
     font-size: 18px;
 
 }
+
 .submit{
     background-color: coral;  
     border: none;
@@ -174,6 +200,7 @@ div{
 }
 #query{
     position: absolute;
-    top: 150px;
-   left:150px;
+   top: 494px;
+    left: 600px;
+    
 }
